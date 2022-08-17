@@ -1,0 +1,59 @@
+        <!--Hero-->
+        <br>
+
+
+        
+        <br>    
+
+        <!-- Porque elegirnos -->
+        <section>
+            <h2>Porqué elegirnos</h2>
+            <img src="./img/porqueelegirnos.png" alt="porqueelegirnos">
+            <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/aWN5tPYEwxc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        </section>
+        
+        <br>    
+
+        <!-- Boxes -->
+        <section>
+            <h3>Elegí la mejor opción para vos</h3>
+            <div>
+                <img src="./img/box1.jpg" alt="box1">
+                <h3>Plan inicial</h3>
+                <h3>$2000 / MES</h3>
+                <li>Durante 1 Mes</li>
+                <li>1 Pack de café</li>
+                <li>1 Libro de café </li>
+                <li>1 ítem de café</li>                                
+            </div>
+        </section>
+
+        <br>
+
+        <!-- Suscribirse 
+        <section class="suscripcion">
+
+            <form>
+                <fieldset>
+                    <legend>¡Suscribite para recibir las novedades antes que nadie!</legend>
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" placeholder="Natasha Stangen">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" placeholder="Natasha Stangen">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="mail">Mail</label>
+                        <input type="email" name="mail" placeholder="natasha1stangen@mail.com">
+                    </div>
+                    <br>
+                    <input type="submit" value="Enviar">
+                
+                </fieldset>
+            </form>
+
+        </section>-->
