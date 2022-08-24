@@ -32,6 +32,10 @@
     align-items: center;
 }
 
+.logo {
+    display: flex;
+}
+
 /* Inicio del nav */
 
 .cajanav { 
@@ -61,7 +65,8 @@
 }
 
 .seccionhero {
-    margin: 30px;
+    display: flex;
+    margin: 150px;
     display: block;
 }
 
@@ -69,17 +74,26 @@
     background-color: var(--color-principal);
     border-radius: 100px;
     color: #C4E8D0;
-    padding: 10px;
-    margin: 10px;
+    padding: 12px;
+    margin-top: 7000px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .titulohero {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-size: bold;
 }
 
+.bajadahero {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+}
+
 p {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -102,7 +116,24 @@ header ul li a {
 }
 
 footer {
-    font-size: 1rem;
-    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--color-secundario);
 }
+
+.imagennosotros {
+    padding: 65px;
+    width: 30%;
+}
+
+.titulonosotros {
+    padding-top: 50px;
+}
+
+.containercontacto { 
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
