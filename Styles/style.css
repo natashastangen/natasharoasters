@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-principal: #224541;
+    --color-verdeclaro: #C4E8D0;
+    --color-rosa: #E0B4B3;
+    --color-marron: #CCA087;
+    --color-secundario: #FFF5EF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--color-principal);
+}
+
+.contenedorbody {
+    display: grid;
+    grid-template-areas: "header"
+                         "main"
+                         "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px auto 100px;
+}
+
+.header {
+    grid-area: header;
+    background-color: var(--color-secundario);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+/* Inicio del nav */
+
+.cajanav { 
+    width: 50%;
+}
+
+.listanav {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    color: var(--color-principal);
+}
+
+.listanav a {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.listanav li {
+    padding: 10px;
+}
+
+/* Inicio del main */
+
+.main { 
+    grid-area: main;
+}
+
+.seccionhero {
+    display: flex;
+    margin: 150px;
+    display: block;
+}
+
+.botonsuscribite {
+    background-color: var(--color-principal);
+    border-radius: 100px;
+    color: #C4E8D0;
+    padding: 12px;
+    margin-top: 7000px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.titulohero {
+    font-size: 3.5rem;
+    font-size: bold;
+}
+
+.bajadahero {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header ul li a {
+    text-decoration:none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-principal);
+}
+
+.suscripcion {
+    background-color: var(--color-secundario);
+}
+
+/* Inicio del footer */
+
+.footer { 
+    background-color:var(--color-marron);
+    grid-area: footer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-secundario);
+}
+
+.imagennosotros {
+    padding: 65px;
+    width: 30%;
+}
+
+.titulonosotros {
+    padding-top: 50px;
+}
+
+.containercontacto { 
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.form-label {
+    font-family: Montserrat;
+    font-size: 16px;
+
+}
